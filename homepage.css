@@ -57,6 +57,7 @@ body {
     width: 100%;
   }
 
+ 
     table, th, td {
         border: 1px solid black;
         border-collapse: collapse;
@@ -98,11 +99,10 @@ body {
         float:left;
       }
 
-      #imgCSS {
+      #myDiv {
         height: 125px;
         width: 170px;
       }
-
       footer{
-        margin-top: 3%;
+        margin-top: 2%;
       }
