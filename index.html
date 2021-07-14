@@ -13,25 +13,22 @@ Copyright (c) 2021 by Michael. All rights reserved.
     <link rel="stylesheet" href="homepage.css">
   </head>
   <body>
-      <div>
-        <h1>Heading 1</h1>
-      </div>
+      <h1>Skiing Mountains!</h1>
        <!-- nav bar -->
     <ul>
         <li><a class="active" href="default.asp">Home</a></li>
-        <li><a href="news.asp">News</a></li>
-        <li><a href="contact.asp">Contact</a></li>
-        <li><a href="about.asp">About</a></li>
+        <li><a href="news.asp">Past Mountains</a></li>
+        <li><a href="contact.asp">Future Mountains</a></li>
+        <li><a href="about.asp">About Me</a></li>
       </ul>    
     <!-- page content -->
-    <h1>This is a heading</h1>
-
+    <h2>My Favorite Mountains</h2>
     <!-- cards content -->
       <div class="row">
         <div class="column">
           <div  class="card">
             <h3>Sunday River</h3>
-            <img id="myDiv"src="pictures/sunday_river.jpg" alt="Photo of sunday river">
+            <img id="imgCSS"src="pictures/sunday_river.jpg" alt="Photo of sunday river">
             <p>Some text</p>
             <p>Some text</p>
           </div>
@@ -40,7 +37,7 @@ Copyright (c) 2021 by Michael. All rights reserved.
         <div class="column">
           <div class="card">
             <h3>Loon</h3>
-            <img id="myDiv"src="pictures/Loon.jpg" alt="Photo of Loon">
+            <img id="imgCSS"src="pictures/Loon.jpg" alt="Photo of Loon">
             <p>Some text</p>
             <p>Some text</p>
           </div>
@@ -49,7 +46,7 @@ Copyright (c) 2021 by Michael. All rights reserved.
         <div class="column">
           <div class="card">
             <h3>Alta/Snowbird</h3>
-            <img id="myDiv"src="pictures/Alta.jpg" alt="Photo of Alta">
+            <img id="imgCSS"src="pictures/Alta.jpg" alt="Photo of Alta">
             <p>Some text</p>
             <p>Some text</p>
           </div>
@@ -58,7 +55,7 @@ Copyright (c) 2021 by Michael. All rights reserved.
         <div class="column">
             <div class="card">
               <h3>Deer Valley</h3>
-              <img id="myDiv"src="pictures/Deer_Valley.jpg" alt="Photo of Deer Valley">
+              <img id="imgCSS"src="pictures/Deer_Valley.jpg" alt="Photo of Deer Valley">
               <p>Some text</p>
               <p>Some text</p>
             </div>
@@ -66,23 +63,83 @@ Copyright (c) 2021 by Michael. All rights reserved.
       </div>
 
       <!-- table content -->
-      <table>
+      <h4>List of All Mountains I've Skied</h4>
+      <table id="table">
         <tr>
-          <th>Firstname</th>
-          <th>Lastname</th>
-          <th>Age</th>
+          <th>Mountain Name</th>
+          <th>Location(state)</th>
+          <th>Height</th>
+          <th>Link To Site</th>
         </tr>
         <tr>
-          <td>Jill</td>
-          <td>Smith</td>
-          <td>50</td>
+          <td>Sunday River</td>
+          <td>Maine</td>
+          <td>3,150 Feet</td>
+          <td><a href="https://www.sundayriver.com/">Sunday River Site</a></td>
         </tr>
         <tr>
-          <td>Eve</td>
-          <td>Jackson</td>
-          <td>94</td>
+          <td>Alta/Snowbird</td>
+          <td>Utah</td>
+          <td>11,068 Feet</td>
+          <td><a href="https://www.alta.com/">Alta Site</a></td>
+        </tr>
+        <tr>
+          <td>Deer Valley</td>
+          <td>Utah</td>
+          <td>9,570 Feet</td>
+          <td><a href="https://www.deervalley.com/">Deer Valley Site</a></td>
+        </tr>
+        <tr>
+          <td>Mount Sunapee</td>
+          <td>New Hampshire</td>
+          <td>2,726 Feet</td>
+          <td><a href="https://www.mountsunapee.com/">Mount Sunapee Site</a></td>
+        </tr>
+        <tr>
+          <td>Winter Park</td>
+          <td>Colorado</td>
+          <td>12,060 Feet</td>
+          <td><a href="https://www.winterparkresort.com/">Winter Park Site</a></td>
+        </tr>
+        <tr>
+          <td>Okemo</td>
+          <td>Vermont</td>
+          <td>3,344 Feet</td>
+          <td><a href="https://www.okemo.com/">Okemo Site</a></td>
+        </tr>
+        <tr>
+          <td>Steamboat</td>
+          <td>Colorado</td>
+          <td>10,568 Feet</td>
+          <td><a href="https://www.steamboat.com/">Steamboat Site</a></td>
+        </tr>
+        <tr>
+          <td>Solitude</td>
+          <td>Utah</td>
+          <td>10,488 Feet</td>
+          <td><a href="https://www.solitudemountain.com/">Solitude Site</a></td>
+        </tr>
+        <tr>
+          <td>Waterville Valley</td>
+          <td>New Hampshire</td>
+          <td>1,506 Feet</td>
+          <td><a href="https://www.waterville.com/">Waterville Valley Site</a></td>
+        </tr>
+        <tr>
+          <td>Cannon Mountain</td>
+          <td>New Hampshire</td>
+          <td>4,081 Feet</td>
+          <td><a href="https://www.cannonmt.com/">Cannon Mountain Site</a></td>
         </tr>
       </table>
-
   </body>
+
+  <footer>
+    <table>
+      <tr>
+        <th><p>Author: Michael Batbouta</p></th>
+        <th><p><a href="mailto:Michael_batbouta@student.uml.edu">Contact Me</a></p></th>
+      </tr>
+    </table>
+  </footer>
 </html>

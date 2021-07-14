@@ -6,6 +6,19 @@ body {
 
   h1{
       text-align: center;
+      font-size: 48px;
+      background-image: url("pictures/header.jpg");
+      background-color: #cccccc;
+      background-size: cover;
+      height:100%;
+      margin:0;
+  }
+  h2{
+    text-align: center;   
+  }
+  h4{
+    text-align: center; 
+    margin-top: 21%;  
   }
 
     /* Nav Bar edits */
@@ -36,21 +49,19 @@ body {
   }
 
   .active {
-    background-color: #04AA6D;
+    background-color: #c07070;
   }
 
      /* table edits */
   table{
-      margin-top: 22%;
     width: 100%;
   }
- 
-    table, th, td {
 
+    table, th:not(:last-child), td {
         border: 1px solid black;
         border-collapse: collapse;
+        text-align: center;
       }
-
 /* cards */
       /* Float four columns side by side */
       * {
@@ -78,7 +89,7 @@ body {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         padding: 16px;
         text-align: center;
-        background-color: #f1f1f1;
+        background-color: #c07070;
       }
 
       image{
@@ -87,7 +98,11 @@ body {
         float:left;
       }
 
-      #myDiv {
+      #imgCSS {
         height: 125px;
         width: 170px;
+      }
+
+      footer{
+        margin-top: 3%;
       }
