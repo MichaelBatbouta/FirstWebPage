@@ -57,7 +57,7 @@ body {
     width: 100%;
   }
 
-    table, th:not(:last-child), td {
+    table, th, td {
         border: 1px solid black;
         border-collapse: collapse;
         text-align: center;
