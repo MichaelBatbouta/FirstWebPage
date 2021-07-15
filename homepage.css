@@ -1,11 +1,18 @@
+/*
+    This file is a stylesheet for my GUI 1 assignments page. CSS code was
+     taken and modified from 
+     https://www.w3schools.com/howto/howto_css_column_cards.asp
+     https://www.w3schools.com/css/css_navbar.asp
+*/
+
+ /* basic body and heading edits are below */
 body {
     background-color:powderblue;
     margin-left: 5%;
     margin-right: 5%;
   }
 
-  h1{
-      text-align: center;
+h1{
       font-size: 48px;
       background-image: url("pictures/header.jpg");
       background-color: #cccccc;
@@ -13,16 +20,16 @@ body {
       height:100%;
       margin:0;
   }
-  h2{
+h1, h2, h4, h5{
     text-align: center;   
   }
-  h4{
-    text-align: center; 
+h4{ 
     margin-top: 21%;  
   }
 
-    /* Nav Bar edits */
-  ul {
+    /* Nav Bar edits 
+      all of these edits below are for the nav bar*/
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -30,12 +37,12 @@ body {
     background-color: #333;
   }
   
-  li {
+li {
     float: left;
     border-right: 1px solid #bbb;
   }
   
-  li a {
+li a {
     display: block;
     color: white;
     text-align: center;
@@ -44,65 +51,70 @@ body {
   }
   
   /* Change the link color to #111 (black) on hover */
-  li a:hover {
+li a:hover {
     background-color: #111;
   }
-
-  .active {
+  /* on each webpage change the active color to pink*/
+.active {
     background-color: #c07070;
   }
 
-     /* table edits */
-  table{
+     /* table edits 
+      all of these edits are for the 2 tables */
+table{
     width: 100%;
   }
 
- 
-    table, th, td {
-        border: 1px solid black;
-        border-collapse: collapse;
-        text-align: center;
-      }
-/* cards */
-      /* Float four columns side by side */
-      * {
-        box-sizing: border-box;
-      }
-      
-      /* Float four columns side by side */
-      .column{
-        float: left;
-        width: 25%;
-        padding: 0 10px;
-      }
-      
-      /* Responsive columns */
-      @media screen and (max-width: 900px) {
-        .column {
-          width: 100%;
-          display: block;
-          margin-bottom: 20px;
-        }
-      }
-      
-      /* Style the counter cards */
-      .card{
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        padding: 16px;
-        text-align: center;
-        background-color: #c07070;
-      }
+list.table, list.th, td {
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid black;      
+  }
 
-      image{
-        max-width:100%;
-        max-height:100%;
-        float:left;
-      }
+tr:nth-child(even){
+    background-color: rgb(177, 175, 175);
+  }
 
-      .myDiv {
-        height: 125px;
-        width: 170px;
-      }
-      footer{
-        margin-top: 2%;
-      }
+#bottomtbl{
+    margin-top: 2%;
+  }
+
+    /* cards edits 
+      alot of these edits were taken from w3school and changed a bit to fit how i use them*/
+    /* Float four columns side by side */
+* {
+    box-sizing: border-box;
+  }      
+.column{
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+      
+  /* Responsive columns */
+@media screen and (max-width: 900px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+      
+  /* Style the cards */
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #c07070;
+  }
+  /* change to make sure we see all of the image*/
+image{
+    max-width:100%;
+    max-height:100%;
+    float:left;
+  }
+  /* card image specific edits*/
+.myDiv {
+    height: 125px;
+    width: 170px;
+  }

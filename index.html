@@ -1,8 +1,24 @@
 <!--
 File: index.html
 GUI Assignment: Creating Your First Web Page
-Michael Batbouta, UMass Lowell Computer Science, michael_batbouta@student.uml.edu
-Copyright (c) 2021 by Michael. All rights reserved. 
+Michael Batbouta, UMass Lowell Computer Science, Michael_batbouta@student.uml.edu
+Copyright (c) 2021 by Wenjin. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by Michael Batbouta on July 14, 2021 at 10:00 AM
+file created on: 7/10/14
+
+description:
+basic webpage that has informative information about ski mountains! working links to those ski mountains and my email.
+has a few images that i took of said ski mountains. 2 tables used to store the information about mountains. all styling is done
+with CSS on the homepage.css sheet.
+
+
+resources used: 
+https://www.w3schools.com/howto/howto_css_column_cards.asp
+https://www.w3schools.com/css/css_navbar.asp
+http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmichaelbatbouta.github.io%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
+https://www.sitepoint.com/a-minimal-html-document-html5-edition/
+https://validator.w3.org/
 -->
 
 <!DOCTYPE html>
@@ -64,7 +80,7 @@ Copyright (c) 2021 by Michael. All rights reserved.
 
       <!-- table content -->
       <h4>List of All Mountains I've Skied</h4>
-      <table id="table">
+      <table id="list">
         <tr>
           <th>Mountain Name</th>
           <th>Location(state)</th>
@@ -132,11 +148,27 @@ Copyright (c) 2021 by Michael. All rights reserved.
           <td><a href="https://www.cannonmt.com/">Cannon Mountain Site</a></td>
         </tr>
       </table>
+      <h5>
+        A Little About Me
+      </h5>
+      <p id="bio">
+        I love Skiing. I try to get about 10 or more ski days in a year. Staying on the trail is starting to get a little boring.
+      </p>
+
       <footer>
-        <table>
+        <table id="bottomtbl">
           <tr>
             <th><p>Author: Michael Batbouta</p></th>
             <th><p><a href="mailto:Michael_batbouta@student.uml.edu">Contact Me</a></p></th>
+            <th>
+              <p>
+                <a href="https://jigsaw.w3.org/css-validator/check/referer">
+                    <img style="border:0;width:88px;height:31px"
+                        src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+                        alt="Valid CSS!" />
+                </a>
+            </p>
+            </th>
           </tr>
         </table>
       </footer>
