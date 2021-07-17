@@ -14,7 +14,7 @@ body {
 
 h1{
       font-size: 48px;
-      background-image: url("pictures/header.jpg");
+      background-image: url("../pictures/header.jpg");
       background-color: #cccccc;
       background-size: cover;
       height:100%;
